@@ -257,6 +257,6 @@ library
           , GHC.IO.Encoding.CodePage.Table
           , GHC.Conc.Windows
           , GHC.Windows
-    else
+    elif !impl(ghcjs)
         reexported-modules:
           , GHC.Event
