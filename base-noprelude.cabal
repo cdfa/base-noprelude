@@ -1,5 +1,5 @@
 cabal-version:       2.2
-name:                base-noprelude
+name:                base-noprelude-ghcjs
 version:             4.14.3.0
 
 synopsis:            "base" package sans "Prelude" module
